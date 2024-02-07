@@ -1,2 +1,2 @@
 # html
-HTML learning notes
+Andy learning HTML & Web Dev
