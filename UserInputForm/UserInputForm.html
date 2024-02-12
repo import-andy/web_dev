@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Input Form</title>
+    <!--Website developed by Andrii Skvortsov-->
+</head>
+
+<body>
+    <form>
+        <p>First Name
+            <input type="text" />
+        </p>
+        <p>Last Name
+            <input type="text" />
+        </p>
+        <p>Email
+            <input type="email" />
+        </p>
+    </form>
+
+    <form>
+        <p>
+            Credit Card Type<br />
+            <input type="radio" name="cardType" />Visa Credit<br />
+            <input type="radio" name="cardType" checked />Visa Debit<br />
+            <input type="radio" name="cardType" />Mastercard<br />
+            <input type="radio" name="cardType" />American Express
+            <br />
+        <p>Name on card<br />
+            <input type="text" placeholder="First name" /><br />
+            <input type="text" placeholder="Last name" /> <br />
+        </p>
+        Credit Card Number <input type="text" placeholder="0000-0000-0000-0000" /><br />
+        Expiry year <input type="number" min="1900" max="2099" step="1" placeholder="2024" /> <br />
+        Expiry month
+        <select>
+            <option selected="selected">January</option>
+            <option>Februrary</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+        </p>
+    </form>
+
+    <p>Additional notes:</p>
+    <textarea cols="20" rows="5">Enter your comments...</textarea>
+
+    <p>
+        <input type="checkbox" checked />Send me a copy of this receipt to email<br />
+        <input type="checkbox" required />I accept Terms & Conditions<br /><br />
+        <input type="submit" value="Submit" />
+    </p>
+
+</body>
+
+</html>
