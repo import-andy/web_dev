@@ -1,2 +1,2 @@
 # html
-Andy learning HTML & Web Dev
+Andy learning Web Development: HTML, CSS & JS
